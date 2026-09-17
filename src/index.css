@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-near-black: #0a0a0a;
+    --color-bone-white: #f4f1ea;
+    --color-film-amber: #e8a33d;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #f4f1ea;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-condensed {
+  font-family: 'Oswald', -apple-system, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom film strip styling */
+.film-perforations {
+  background-image: radial-gradient(#0a0a0a 45%, transparent 46%);
+  background-size: 16px 18px;
+}
+
+/* Hide scrollbars for clean cinematic presentation */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e8a33d;
+}

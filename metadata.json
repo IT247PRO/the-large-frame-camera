@@ -1,0 +1,6 @@
+{
+  "name": "The Large-Format Camera",
+  "description": "A photoreal, scroll-driven 3D browser experience showcasing a next-generation 65mm cinema camera built entirely in code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
